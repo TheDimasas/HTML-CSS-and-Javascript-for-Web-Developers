@@ -1,0 +1,74 @@
+* {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
+.container {
+  width: 100%;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+h3 {
+  margin: 15px;
+}
+.box {
+  background-color: lightgray;
+  position: relative;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+p {
+  margin: 0;
+}
+header {
+  background-color: darkgray;
+}
+#header-nav {
+  background-color: darkgray;
+  border-radius: 0;
+  border: 1px solid black;
+}
+.navbar-brand h1:hover, .navbar-brand h1:focus {
+  color: black;
+}
+.navbar-brand h1 {
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+.navbar-header {
+  height: 70px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#main-content {
+  margin: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+#nav-list a {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+#nav-list a:hover {
+  background: lightgray;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: white;
+  }
+}
